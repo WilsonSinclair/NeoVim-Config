@@ -27,9 +27,10 @@ call plug#end()
 
 color gruvbox-material
 
-
+"NERDTree key remaps
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
+"Tab Completion
 inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"
