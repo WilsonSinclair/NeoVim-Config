@@ -21,11 +21,13 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/sainnhe/gruvbox-material', {'as': 'gruvbox-material' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
 
 call plug#end()
 
-color gruvbox-material
+color catppuccin-frappe " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
 
 "NERDTree key remaps
 nnoremap <C-f> :NERDTreeFocus<CR>
